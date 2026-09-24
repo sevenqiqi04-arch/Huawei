@@ -1,0 +1,239 @@
+{
+  "summary": {
+    "passed": 43,
+    "failed": 0,
+    "scope": "executable derived-result consistency only, NOT scientific validity acceptance"
+  },
+  "checks": [
+    {
+      "check": "quality_expected_rows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quality_unique_dataset_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quality_final_equals_base",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quality_finite_unit_interval",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quality_root_alias_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exploratory_penalty_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "domain_summary_means_counts_sd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "domain_summary_alias_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "global_threshold_value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "directional_flags",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "global_flags",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "domain_flags",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review_policy_union",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "threshold_columns_semantic",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "extended_statistics_exclude_overlap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_values_match_final_quality",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_aliases_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "predictions_replay",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "legacy_prediction_column_same_model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "delta_equals_absolute_minus_reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_delta_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mixture_quality_uses_final_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "column_order_reordered_by_name",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "invalid_inputs_rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "missing_dataframe_feature_rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "portable_vs_original_sklearn_observed_random_boundary",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.6645352591003757e-15,
+        "n_probes": 1615
+      }
+    },
+    {
+      "check": "reported_metrics_recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "oof_metric_recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "oof_unique_rows_and_five_folds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "interaction_affine_null_all_pairs_steps",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.6081567461311295e-15,
+        "all_17_coordinate_basis_max_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "check": "interaction_simplex_all_pairs_steps",
+      "passed": true,
+      "detail": {
+        "max_sum_error": 1.7763568394002505e-15,
+        "min_coordinate": 0.0
+      }
+    },
+    {
+      "check": "interaction_boundary_without_donor_excluded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marginal_vertex_increase_excluded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "one_model_for_all_main_effects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marginal_alias_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "interaction_aliases_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_interactions_exploratory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "complete_domain_pair_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marginal_aggregate_from_row_effects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "interaction_aggregate_from_row_effects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "conditional_bootstrap_all_136_intervals_replay",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "interaction_predictions_independent_replay_sample",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping_25_explicit_scenarios",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "not_testable_from_package": [
+    "raw input ingestion and 22-indicator/CRITIC generation",
+    "independent quality labels and conflict improvement",
+    "historical independence of selection",
+    "model-refit interaction uncertainty and empirical intervention support"
+  ]
+}
